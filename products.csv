@@ -1,0 +1,101 @@
+Product ID,Product Name,Category,Price,Quantity,Expiration Date,Nutritional Information,Brand,Dietary Restrictions,Israeli Product
+1,Apples,Fruits,2.5,10,6/30/2024,"Calories: 52, Carbs: 14g, Fiber: 2g",FreshFruit,None,No
+2,Bananas,Fruits,1.75,15,6/30/2024,"Calories: 105, Carbs: 27g, Fiber: 3g",Tropical,None,No
+3,Spinach,Vegetables,3,5,6/30/2024,"Calories: 23, Carbs: 3g, Fiber: 2g",GreenLeaf,"Gluten-Free, Vegan",No
+4,Chicken Breast,Meat,5.5,8,6/30/2024,"Calories: 165, Protein: 31g, Fat: 3.6g",FarmFresh,None,No
+5,Pasta,Grains,2,10,6/30/2024,"Calories: 200, Carbs: 40g, Protein: 7g",PastaMasta,None,No
+6,Tomatoes,Fruits,2.25,12,6/30/2024,"Calories: 18, Carbs: 4g, Fiber: 1g",RedDelight,None,No
+7,Milk,Dairy,3.5,6,6/30/2024,"Calories: 150, Protein: 8g, Fat: 8g",FreshMilk,"Lactose-Free, Organic",No
+8,Bread,Grains,2.75,7,6/30/2024,"Calories: 80, Carbs: 15g, Protein: 4g",GrainBake,Gluten-Free,No
+9,Yogurt,Dairy,1.99,8,6/30/2024,"Calories: 100, Protein: 10g, Fat: 2g",CreamyDairy,None,No
+10,Eggs,Protein,2.99,10,6/30/2024,"Calories: 70, Protein: 6g, Fat: 5g",SunnySide,None,No
+11,Broccoli,Vegetables,2.25,8,6/30/2024,"Calories: 55, Carbs: 11g, Fiber: 5g",GreenGiant,None,No
+12,Oranges,Fruits,3.25,10,6/30/2024,"Calories: 62, Carbs: 15g, Fiber: 3g",CitrusFresh,None,No
+13,Beef,Meat,6.75,6,6/30/2024,"Calories: 250, Protein: 25g, Fat: 16g",PrimeCuts,None,No
+14,Rice,Grains,1.5,12,6/30/2024,"Calories: 205, Carbs: 45g, Protein: 5g",GoldenGrain,None,No
+15,Cheese,Dairy,4.25,5,6/30/2024,"Calories: 110, Protein: 7g, Fat: 9g",DairyDeluxe,None,No
+16,Toothpaste,Household,2.99,3,N/A,N/A,WhiteSmile,None,No
+17,Laundry Detergent,Household,8.5,2,N/A,N/A,FreshClean,None,No
+18,Toilet Paper,Household,4.75,5,N/A,N/A,SoftTouch,None,No
+19,Dish Soap,Household,3.25,4,N/A,N/A,SparkleClean,None,No
+20,Hand Soap,Household,2.5,3,N/A,N/A,GentleGlow,None,No
+21,Shampoo,Household,5.99,2,N/A,N/A,SilkyLocks,None,No
+22,Conditioner,Household,6.99,2,N/A,N/A,SmoothWave,None,No
+23,Aluminum Foil,Household,3.5,3,N/A,N/A,SilverWrap,None,No
+24,Sandwich Bags,Household,2.25,4,N/A,N/A,FreshSeal,None,No
+25,Olive Oil,Condiments,7.99,3,12/31/2024,"Calories: 120, Fat: 14g",OliveFresh,None,Yes
+26,Hummus,Condiments,3.49,4,9/30/2024,"Calories: 70, Fat: 5g, Protein: 2g, Fiber: 1g",Sabra,"Vegan, Gluten-Free",Yes
+27,Tahini,Condiments,4.75,2,12/31/2024,"Calories: 90, Fat: 8g",Soom,"Vegan, Gluten-Free",Yes
+28,Falafel Mix,Grains,3.25,3,12/31/2024,"Calories: 150, Carbs: 25g, Protein: 5g",Osem,"Vegan, Gluten-Free",Yes
+29,Shakshuka Sauce,Condiments,5.5,2,9/30/2024,"Calories: 60, Carbs: 4g, Fat: 4g, Protein: 1g",Beitan,"Vegan, Gluten-Free",Yes
+30,Bourekas,Bakery,4.25,6,12/31/2024,"Calories: 220, Fat: 12g, Protein: 6g",Bissli,None,Yes
+31,Bamba,Snacks,2.99,8,12/31/2024,"Calories: 150, Fat: 10g",Osem,None,Yes
+32,Bisli,Snacks,3.25,7,12/31/2024,"Calories: 180, Fat: 12g",Osem,None,Yes
+33,Elite Chocolate,Sweets,4.99,4,12/31/2024,"Calories: 200, Fat: 12g, Protein: 2g",Elite,None,Yes
+34,Pomegranate Juice,Beverages,5.75,3,9/30/2024,"Calories: 120, Carbs: 30g",Prigat,None,Yes
+35,Bouillon Cubes,Condiments,2.25,5,12/31/2024,"Sodium: 900mg, Fat: 1g",Osem,None,Yes
+36,Quinoa,Grains,6.5,4,12/31/2024,"Calories: 220, Carbs: 39g, Protein: 8g",GoldHarvest,"Vegan, Gluten-Free",Yes
+37,Dates,Fruits,4.99,5,12/31/2024,"Calories: 282, Carbs: 75g, Fiber: 8g",BardValley,None,Yes
+38,Cucumbers,Vegetables,1.99,10,6/30/2024,"Calories: 16, Carbs: 4g, Fiber: 1g",GreenFresh,None,No
+39,Ice Cream,Frozen Dessert,6.99,3,12/31/2024,"Calories: 200, Fat: 10g, Protein: 5g",RichCream,None,No
+40,Frozen Pizza,Frozen Meals,8.49,2,12/31/2024,"Calories: 300, Fat: 15g, Protein: 10g",PizzaHut,None,No
+41,Corn Flakes,Cereal,3.75,4,12/31/2024,"Calories: 110, Carbs: 25g, Protein: 2g",Kellogg's,None,No
+42,Cereal Bars,Snacks,2.25,6,12/31/2024,"Calories: 150, Carbs: 20g, Protein: 3g",Quaker,None,No
+43,Baby Diapers,Baby Care,12.99,1,N/A,N/A,Pampers,None,No
+44,Baby Wipes,Baby Care,5.99,3,N/A,N/A,Huggies,None,No
+45,Baby Formula,Baby Care,18.99,2,N/A,N/A,Similac,None,No
+46,Hand Sanitizer,Household,3.99,4,N/A,N/A,PureClean,None,No
+47,Sunscreen,Health & Beauty,7.49,2,N/A,N/A,SunShield,None,No
+48,Mosquito Repellent,Health & Beauty,4.25,3,N/A,N/A,BugBlock,None,No
+49,Toothbrush,Health & Beauty,2.25,6,N/A,N/A,FreshSmile,None,No
+50,Mouthwash,Health & Beauty,3.75,4,N/A,N/A,CleanBreath,None,No
+51,Lipton Green Tea,Beverages,3.99,5,12/31/2024,"Calories: 0, Carbs: 0g, Fat: 0g",Lipton,None,No
+52,TRESemmé Shampoo,Health & Beauty,6.49,4,N/A,N/A,TRESemmé,None,No
+53,Dove Beauty Bar,Health & Beauty,4.75,6,N/A,N/A,Dove,None,No
+54,Knorr Chicken Cubes,Condiments,2.49,8,6/30/2025,"Sodium: 900mg, Fat: 1g",Knorr,None,No
+55,Pepsi,Beverages,1.99,10,12/31/2024,"Calories: 150, Carbs: 40g",Pepsi,None,Yes
+56,Lays Potato Chips,Snacks,3.25,7,12/31/2024,"Calories: 160, Fat: 10g",Lays,None,Yes
+57,Doritos,Snacks,2.99,6,12/31/2024,"Calories: 150, Fat: 8g",Doritos,None,Yes
+58,Knorr Noodles,Instant Meals,1.49,12,12/31/2024,"Calories: 250, Carbs: 30g, Protein: 5g",Knorr,None,No
+59,Tropicana Orange Juice,Beverages,4.25,4,12/31/2024,"Calories: 110, Carbs: 26g",Tropicana,None,No
+60,Dove Body Wash,Health & Beauty,7.99,3,N/A,N/A,Dove,None,No
+61,Sunsilk Shampoo,Health & Beauty,5.49,5,N/A,N/A,Sunsilk,None,No
+62,Lifebuoy Soap,Health & Beauty,3.25,8,N/A,N/A,Lifebuoy,None,No
+63,Closeup Toothpaste,Health & Beauty,2.99,6,N/A,N/A,Closeup,None,No
+64,Surf Excel Detergent,Household,8.99,4,N/A,N/A,Surf Excel,None,No
+65,Lipton Yellow Label,Beverages,4.75,7,12/31/2024,"Calories: 0, Carbs: 0g, Fat: 0g",Lipton,None,No
+66,Knorr Soup,Instant Meals,1.99,10,12/31/2024,"Calories: 100, Carbs: 10g, Protein: 3g",Knorr,None,No
+67,Mountain Dew,Beverages,2.25,8,12/31/2024,"Calories: 170, Carbs: 46g, Caffeine: 54mg",Mountain Dew,None,Yes
+68,Quaker Oats,Breakfast Cereals,4.99,6,12/31/2024,"Calories: 150, Carbs: 27g, Protein: 5g, Fiber: 4g",Quaker,None,No
+69,Lays Masala Chips,Snacks,3.49,5,12/31/2024,"Calories: 160, Fat: 10g",Lays,None,Yes
+70,Knorr Ketchup,Condiments,2.75,7,12/31/2024,"Calories: 20, Carbs: 5g",Knorr,None,No
+71,Pepsi Diet,Beverages,2.49,10,12/31/2024,"Calories: 0, Carbs: 0g",Pepsi,None,Yes
+72,Tropicana Apple Juice,Beverages,3.99,6,12/31/2024,"Calories: 120, Carbs: 28g",Tropicana,None,No
+73,Dove Hair Conditioner,Health & Beauty,8.49,3,N/A,N/A,Dove,None,No
+74,Vim Dishwash Bar,Household,2.25,8,N/A,N/A,Vim,None,No
+75,Gatorade,Beverages,3.25,7,12/31/2024,"Calories: 80, Carbs: 21g, Electrolytes: 100mg",Gatorade,None,No
+76,Lays Salted Chips,Snacks,3.25,5,12/31/2024,"Calories: 160, Fat: 10g",Lays,None,Yes
+77,Knorr Instant Noodles,Instant Meals,2.25,8,12/31/2024,"Calories: 200, Carbs: 25g, Protein: 5g",Knorr,None,No
+78,7Up,Beverages,1.99,9,12/31/2024,"Calories: 140, Carbs: 38g",7Up,None,Yes
+79,Lipton Ice Tea,Beverages,2.99,6,12/31/2024,"Calories: 70, Carbs: 19g",Lipton,None,No
+80,Knorr Tomato Soup,Instant Meals,1.99,9,12/31/2024,"Calories: 80, Carbs: 15g, Protein: 3g",Knorr,None,No
+81,Almond Milk,Beverages,3.99,6,12/31/2024,"Calories: 60, Carbs: 2g, Fat: 4.5g",Silk,"Vegan, Dairy-Free",No
+82,Gluten-Free Pasta,Pasta,5.49,4,12/31/2024,"Calories: 200, Carbs: 43g, Protein: 8g, Fiber: 3g",Barilla,"Gluten-Free, Vegan",No
+83,Organic Tofu,Protein,4.25,8,12/31/2024,"Calories: 70, Protein: 8g, Fat: 4g, Carbs: 2g",Nasoya,"Vegan, Organic",No
+84,Vegan Cheese,Dairy Alternatives,6.99,3,12/31/2024,"Calories: 90, Protein: 3g, Fat: 7g, Carbs: 2g",Daiya,Vegan,No
+85,Gluten-Free Bread,Bakery,4.75,6,12/31/2024,"Calories: 110, Carbs: 22g, Protein: 2g, Fiber: 3g",Canyon Bake,"Gluten-Free, Vegan",No
+86,Sugar-Free Chocolate,Sweets,5.99,5,12/31/2024,"Calories: 120, Fat: 10g, Carbs: 5g, Protein: 2g",Lily's,"Sugar-Free, Vegan",No
+87,Dairy-Free Ice Cream,Frozen Dessert,7.49,4,12/31/2024,"Calories: 150, Fat: 9g, Carbs: 16g, Protein: 2g",So Delicious,"Dairy-Free, Vegan",No
+88,Organic Quinoa,Grains,6.99,3,12/31/2024,"Calories: 160, Carbs: 30g, Protein: 6g, Fiber: 3g",AncientHarv,"Organic, Vegan, Gluten-Free",No
+89,Vegan Protein Powder,Supplements,24.99,2,12/31/2024,"Calories: 120, Protein: 20g, Carbs: 5g, Fat: 1g",Vega,Vegan,No
+90,Gluten-Free Cookies,Snacks,3.49,7,12/31/2024,"Calories: 150, Carbs: 20g, Fat: 8g, Protein: 2g",Enjoy Life,"Gluten-Free, Vegan",No
+91,Organic Kale,Vegetables,2.99,10,12/31/2024,"Calories: 50, Carbs: 10g, Protein: 3g, Fiber: 5g",OrganicGreens,"Organic, Vegan",No
+92,Gluten-Free Pancake Mix,Breakfast,4.99,4,12/31/2024,"Calories: 200, Carbs: 45g, Protein: 5g, Fiber: 3g",Bob's Red Mill,"Gluten-Free, Vegan",No
+93,Almond Butter,Spreads,8.25,3,12/31/2024,"Calories: 180, Fat: 15g, Carbs: 7g, Protein: 6g",Justin's,Vegan,No
+94,Vegan Protein Bars,Snacks,2.99,8,12/31/2024,"Calories: 220, Carbs: 25g, Protein: 15g, Fiber: 5g",Orgain,Vegan,No
+95,Dairy-Free Yogurt,Dairy Alternatives,5.49,6,12/31/2024,"Calories: 120, Carbs: 15g, Protein: 5g, Fat: 3g",Kite Hill,"Dairy-Free, Vegan",No
+96,Gluten-Free Brownies,Sweets,6.99,4,12/31/2024,"Calories: 180, Carbs: 25g, Protein: 3g, Fat: 8g",Enjoy Life,"Gluten-Free, Vegan",No
+97,Organic Avocado Oil,Oils,9.99,3,12/31/2024,"Calories: 120, Fat: 14g, Vitamin E: 10%",Chosen Foods,"Organic, Vegan",No
+98,Vegan Protein Pasta,Pasta,6.49,5,12/31/2024,"Calories: 220, Carbs: 40g, Protein: 15g, Fiber: 5g",Banza,"Vegan, High-Protein",No
+99,Gluten-Free Pizza,Frozen Meals,8.99,3,12/31/2024,"Calories: 300, Carbs: 40g, Protein: 10g, Fat: 10g",Caulipower,"Gluten-Free, Vegan",No
+100,Vegan Protein Shake,Supplements,29.99,2,12/31/2024,"Calories: 180, Protein: 25g, Carbs: 10g, Fat: 5g",Vega,Vegan,No

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="/static/indexStyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Selector</title>
+</head>
+<body>
+    <h1>Product Selector</h1>
+    <form action="/results" method="post" id="product_form">
+        <label for="selected_items">Select Items:</label><br>
+        <input type="text" id="search_input" onkeyup="searchItems()" placeholder="Search for items...">
+
+
+        <select name="category" id="category" onchange="filterItems()">
+            <option value="All">All</option>
+            {% for category in df['Category'].unique() %}
+                <option value="{{ category }}">{{ category }}</option>
+            {% endfor %}
+        </select>
+
+        <select name="selected_items" id="selected_items" multiple size="10">
+            {% for index, row in df.iterrows() %}
+                <option value="{{ row['Product Name'] }}" data-category="{{ row['Category'] }}">{{ row['Product Name'] }} - Rs. {{ row['Price'] }}</option>
+            {% endfor %}
+        </select><br>
+
+        <button type="button" onclick="addItem()">Add Selected Item</button><br>
+
+        <ul id="selected_list"></ul><br>
+        <input type="hidden" id="selected_items_list" name="selected_items_list">  <!-- Hidden input field for selected items -->
+
+
+        <label for="budget">Budget:</label>
+        <input type="number" name="budget" id="budget" step="100" required value="1000"><br>
+
+        <label for="freshness_days">Freshness Days:</label>
+        <input type="number" name="freshness_days" id="freshness_days" required value="0"><br>
+
+        <!--Dietary Restrictions-->
+        <label for="dietary_restrictions">Dietary Restrictions:</label><br>
+        <input type="checkbox" name="dietary_restrictions" value="none" checked> None<br>
+        <input type="checkbox" name="dietary_restrictions" value="Gluten-Free"> Gluten-Free<br>
+        <input type="checkbox" name="dietary_restrictions" value="Vegan"> Vegan<br>
+        <input type="checkbox" name="dietary_restrictions" value="Sugar-Free"> Sugar-Free<br>
+        <input type="checkbox" name="dietary_restrictions" value="Organic"> Organic<br>
+        <input type="checkbox" name="dietary_restrictions" value="High-Protein"> High-Protein<br>
+
+        <label for="israeli_product">Boycott Israeli Products:</label>
+        <select name="israeli_product" id="israeli_product">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select><br>
+
+        <input type="submit" value="Submit" onclick="updateSelectedItemsList()">  <!-- Call function to update selected items list before form submission -->
+
+    </form>
+
+    <script>
+        function searchItems() {
+            // Declare variables
+            let input, filter, select, options, i, option, txtValue;
+            input = document.getElementById('search_input');
+            filter = input.value.toUpperCase();
+            select = document.getElementById("selected_items");
+            options = select.getElementsByTagName('option');
+
+            // Loop through all options and hide those that do not match the search query
+            for (i = 0; i < options.length; i++) {
+                option = options[i];
+                txtValue = option.textContent || option.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    option.style.display = "";
+                } else {
+                    option.style.display = "none";
+                }
+            }
+        }
+
+        function filterItems() {
+            let category = document.getElementById('category').value;
+            let select = document.getElementById("selected_items");
+            let options = select.getElementsByTagName('option');
+
+            // Loop through all options and show/hide based on selected category
+            for (let i = 0; i < options.length; i++) {
+                let option = options[i];
+                let dataCategory = option.getAttribute('data-category');
+                if (category === "All" || category === dataCategory) {
+                    option.style.display = "";
+                } else {
+                    option.style.display = "none";
+                }
+            }
+        }
+
+
+        function addItem() {
+            let select = document.getElementById("selected_items");
+            let selectedList = document.getElementById("selected_list");
+            let selectedOptions = select.selectedOptions;
+            let selectedItemsList = document.getElementById("selected_items_list");
+
+
+            for (let i = 0; i < selectedOptions.length; i++) {
+                let option = selectedOptions[i];
+                let productName = option.textContent.split(' - ')[0]; // Get only the product name
+                let listItem = document.createElement("li");
+                listItem.textContent = option.text;
+                selectedList.appendChild(listItem);
+
+                // Update hidden input value
+                selectedItemsList.value += productName + ', ';
+
+            }
+        }
+
+
+        function updateSelectedItemsList() {
+            // Remove trailing comma and whitespace
+            let selectedItemsList = document.getElementById("selected_items_list");
+            selectedItemsList.value = selectedItemsList.value.replace(/,\s*$/, "");
+        }
+
+    </script>
+</body>
+</html>
