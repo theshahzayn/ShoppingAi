@@ -1,6 +1,8 @@
 import pandas as pd
 
+
 def constrained_genetic_shopping(df, budget, freshness_days, dietary_restrictions, israeli_product):
+
     """
     Select products from the DataFrame df within the budget and satisfying dietary restrictions, freshness constraint, and Israeli product constraint.
     """

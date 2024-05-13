@@ -52,3 +52,10 @@ ul {
 li {
     margin-bottom: 5px;
 }
+
+#total_spend_display {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+}

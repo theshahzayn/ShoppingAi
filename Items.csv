@@ -1,0 +1,101 @@
+Product ID,Product Name,Category,Price,Quantity,Expiration Date,Calories,Fat,Carbs,Protein,Brand,Dietary Restrictions,Israeli Product
+1,Apples,Fruits,2.5,10,6/30/2024,52,0.3,14,0.3, FreshFruit,None,No
+2,Bananas,Fruits,1.75,15,6/30/2024,105,0.4,27,1.3,Tropical,None,No
+3,Spinach,Vegetables,3,5,6/30/2024,23,0.4,3,2,GreenLeaf,"Gluten-Free, Vegan",No
+4,Chicken Breast,Meat,5.5,8,6/30/2024,165,3.6,0,31,FarmFresh,None,No
+5,Pasta,Grains,2,10,6/30/2024,200,1,40,7,PastaMasta,None,No
+6,Tomatoes,Fruits,2.25,12,6/30/2024,18,0.2,4,1,RedDelight,None,No
+7,Milk,Dairy,3.5,6,6/30/2024,150,8,12,8,FreshMilk,"Lactose-Free, Organic",No
+8,Bread,Grains,2.75,7,6/30/2024,80,1,15,4,GrainBake,Gluten-Free,No
+9,Yogurt,Dairy,1.99,8,6/30/2024,100,2,12,10,CreamyDairy,None,No
+10,Eggs,Protein,2.99,10,6/30/2024,70,5,1,6,SunnySide,None,No
+11,Broccoli,Vegetables,2.25,8,6/30/2024,55,0.6,11,5,GreenGiant,None,No
+12,Oranges,Fruits,3.25,10,6/30/2024,62,0.2,15,1.2,CitrusFresh,None,No
+13,Beef,Meat,6.75,6,6/30/2024,250,16,0,25,PrimeCuts,None,No
+14,Rice,Grains,1.5,12,6/30/2024,205,0.5,45,5,GoldenGrain,None,No
+15,Cheese,Dairy,4.25,5,6/30/2024,110,9,1,7,DairyDeluxe,None,No
+16,Toothpaste,Household,2.99,3,N/A,N/A,N/A,N/A,N/A,WhiteSmile,None,No
+17,Laundry Detergent,Household,8.5,2,N/A,N/A,N/A,N/A,N/A,FreshClean,None,No
+18,Toilet Paper,Household,4.75,5,N/A,N/A,N/A,N/A,N/A,SoftTouch,None,No
+19,Dish Soap,Household,3.25,4,N/A,N/A,N/A,N/A,N/A,SparkleClean,None,No
+20,Hand Soap,Household,2.5,3,N/A,N/A,N/A,N/A,N/A,GentleGlow,None,No
+21,Shampoo,Household,5.99,2,N/A,N/A,N/A,N/A,N/A,SilkyLocks,None,No
+22,Conditioner,Household,6.99,2,N/A,N/A,N/A,N/A,N/A,SmoothWave,None,No
+23,Aluminum Foil,Household,3.5,3,N/A,N/A,N/A,N/A,N/A,SilverWrap,None,No
+24,Sandwich Bags,Household,2.25,4,N/A,N/A,N/A,N/A,N/A,FreshSeal,None,No
+25,Olive Oil,Condiments,7.99,3,12/31/2024,120,14,0,0,OliveFresh,None,Yes
+26,Hummus,Condiments,3.49,4,9/30/2024,70,5,6,2,Sabra,"Vegan, Gluten-Free",Yes
+27,Tahini,Condiments,4.75,2,12/31/2024,90,8,0,0,Soom,"Vegan, Gluten-Free",Yes
+28,Falafel Mix,Grains,3.25,3,12/31/2024,150,3,25,5,Osem,"Vegan, Gluten-Free",Yes
+29,Shakshuka Sauce,Condiments,5.5,2,9/30/2024,60,4,4,1,Beitan,"Vegan, Gluten-Free",Yes
+30,Bourekas,Bakery,4.25,6,12/31/2024,220,12,30,6,Bissli,None,Yes
+31,Bamba,Snacks,2.99,8,12/31/2024,150,10,15,2,Osem,None,Yes
+32,Bisli,Snacks,3.25,7,12/31/2024,180,12,20,2,Osem,None,Yes
+33,Elite Chocolate,Sweets,4.99,4,12/31/2024,200,12,15,2,Elite,None,Yes
+34,Pomegranate Juice,Beverages,5.75,3,9/30/2024,120,0,30,0,Prigat,None,Yes
+35,Bouillon Cubes,Condiments,2.25,5,12/31/2024,0,1,0,0,Osem,None,Yes
+36,Quinoa,Grains,6.5,4,12/31/2024,220,1,39,8,GoldHarvest,"Vegan, Gluten-Free",Yes
+37,Dates,Fruits,4.99,5,12/31/2024,282,0.4,75,8,BardValley,None,Yes
+38,Cucumbers,Vegetables,1.99,10,6/30/2024,16,0.1,4,1,GreenFresh,None,No
+39,Ice Cream,Frozen Dessert,6.99,3,12/31/2024,200,10,20,5,RichCream,None,No
+40,Frozen Pizza,Frozen Meals,8.49,2,12/31/2024,300,15,40,10,PizzaHut,None,No
+41,Corn Flakes,Cereal,3.75,4,12/31/2024,110,0.1,25,2,Kellogg's,None,No
+42,Cereal Bars,Snacks,2.25,6,12/31/2024,150,2,20,3,Quaker,None,No
+43,Baby Diapers,Baby Care,12.99,1,N/A,N/A,N/A,N/A,N/A,Pampers,None,No
+44,Baby Wipes,Baby Care,5.99,3,N/A,N/A,N/A,N/A,N/A,Huggies,None,No
+45,Baby Formula,Baby Care,24.99,1,N/A,N/A,N/A,N/A,N/A,Similac,None,No
+46,Baby Shampoo,Baby Care,4.99,4,N/A,N/A,N/A,N/A,N/A,Johnson's,None,No
+47,Baby Lotion,Baby Care,3.75,5,N/A,N/A,N/A,N/A,N/A,Johnson's,None,No
+48,Baby Powder,Baby Care,2.5,6,N/A,N/A,N/A,N/A,N/A,Johnson's,None,No
+49,Baby Soap,Baby Care,1.99,7,N/A,N/A,N/A,N/A,N/A,Johnson's,None,No
+50,Baby Oil,Baby Care,4.25,3,N/A,N/A,N/A,N/A,N/A,Johnson's,None,No
+51,Lipton Green Tea,Beverages,3.99,5,12/31/2024,0,0,0,0,Lipton,None,No
+52,TRESemmé Shampoo,Health & Beauty,6.49,4,N/A,N/A,N/A,N/A,N/A,TRESemmé,None,No
+53,Dove Beauty Bar,Health & Beauty,4.75,6,N/A,N/A,N/A,N/A,N/A,Dove,None,No
+54,Knorr Chicken Cubes,Condiments,2.49,8,6/30/2025,0,1,0,0,Knorr,None,No
+55,Pepsi,Beverages,1.99,10,12/31/2024,150,0,40,0,Pepsi,None,Yes
+56,Lays Potato Chips,Snacks,3.25,7,12/31/2024,160,10,15,2,Lays,None,Yes
+57,Doritos,Snacks,2.99,6,12/31/2024,150,8,18,2,Doritos,None,Yes
+58,Knorr Noodles,Instant Meals,1.49,12,12/31/2024,250,2,30,5,Knorr,None,No
+59,Tropicana Orange Juice,Beverages,4.25,4,12/31/2024,110,0.2,26,1,Tropicana,None,No
+60,Dove Body Wash,Health & Beauty,7.99,3,N/A,N/A,N/A,N/A,N/A,Dove,None,No
+61,Sunsilk Shampoo,Health & Beauty,5.49,5,N/A,N/A,N/A,N/A,N/A,Sunsilk,None,No
+62,Lifebuoy Soap,Health & Beauty,3.25,8,N/A,N/A,N/A,N/A,N/A,Lifebuoy,None,No
+63,Closeup Toothpaste,Health & Beauty,2.99,6,N/A,N/A,N/A,N/A,N/A,Closeup,None,No
+64,Surf Excel Detergent,Household,8.99,4,N/A,N/A,N/A,N/A,N/A,Surf Excel,None,No
+65,Lipton Yellow Label,Beverages,4.75,7,12/31/2024,0,0,0,0,Lipton,None,No
+66,Knorr Soup,Instant Meals,1.99,10,12/31/2024,100,10,10,3,Knorr,None,No
+67,Mountain Dew,Beverages,2.25,8,12/31/2024,170,0,46,0,Mountain Dew,None,Yes
+68,Quaker Oats,Breakfast Cereals,4.99,6,12/31/2024,150,3,27,5,Quaker,None,No
+69,Lays Masala Chips,Snacks,3.49,5,12/31/2024,160,10,15,2,Lays,None,Yes
+70,Knorr Ketchup,Condiments,2.75,7,12/31/2024,20,0,5,0,Knorr,None,No
+71,Pepsi Diet,Beverages,2.49,10,12/31/2024,0,0,0,0,Pepsi,None,Yes
+72,Tropicana Apple Juice,Beverages,3.99,6,12/31/2024,120,0.2,28,0,Tropicana,None,No
+73,Dove Hair Conditioner,Health & Beauty,8.49,3,N/A,N/A,N/A,N/A,N/A,Dove,None,No
+74,Vim Dishwash Bar,Household,2.25,8,N/A,N/A,N/A,N/A,N/A,Vim,None,No
+75,Gatorade,Beverages,3.25,7,12/31/2024,80,0,21,0,Gatorade,None,No
+76,Lays Salted Chips,Snacks,3.25,5,12/31/2024,160,10,15,2,Lays,None,Yes
+77,Knorr Instant Noodles,Instant Meals,2.25,8,12/31/2024,200,2,25,5,Knorr,None,No
+78,7Up,Beverages,1.99,9,12/31/2024,140,0,38,0,7Up,None,Yes
+79,Lipton Ice Tea,Beverages,2.99,6,12/31/2024,70,0,19,0,Lipton,None,No
+80,Knorr Tomato Soup,Instant Meals,1.99,9,12/31/2024,80,2,15,3,Knorr,None,No
+81,Almond Milk,Beverages,3.99,6,12/31/2024,60,4.5,2,1,Silk,"Vegan, Dairy-Free",No
+82,Gluten-Free Pasta,Pasta,5.49,4,12/31/2024,200,1.5,43,8,Barilla,"Gluten-Free, Vegan",No
+83,Organic Tofu,Protein,4.25,8,12/31/2024,70,4,2,8,Nasoya,"Vegan, Organic",No
+84,Vegan Cheese,Dairy Alternatives,6.99,3,12/31/2024,90,7,2,3,Daiya,Vegan,No
+85,Gluten-Free Bread,Bakery,4.75,6,12/31/2024,110,2,22,2,Canyon Bake,"Gluten-Free, Vegan",No
+86,Sugar-Free Chocolate,Sweets,5.99,5,12/31/2024,120,10,5,2,Lily's,"Sugar-Free, Vegan",No
+87,Dairy-Free Ice Cream,Frozen Dessert,7.49,4,12/31/2024,150,9,16,2,So Delicious,"Dairy-Free, Vegan",No
+88,Organic Quinoa,Grains,6.99,3,12/31/2024,160,3,30,6,AncientHarv,"Organic, Vegan, Gluten-Free",No
+89,Vegan Protein Powder,Supplements,24.99,2,12/31/2024,120,1,5,20,Vega,Vegan,No
+90,Gluten-Free Cookies,Snacks,3.49,7,12/31/2024,150,8,20,2,Enjoy Life,"Gluten-Free, Vegan",No
+91,Organic Kale,Vegetables,2.99,10,12/31/2024,50,0.5,10,3,OrganicGreens,"Organic, Vegan",No
+92,Gluten-Free Pancake Mix,Breakfast,4.99,4,12/31/2024,200,1,45,5,Bob's Red Mill,"Gluten-Free, Vegan",No
+93,Almond Butter,Spreads,8.25,3,12/31/2024,180,15,7,6,Justin's,Vegan,No
+94,Vegan Protein Bars,Snacks,2.99,8,12/31/2024,220,5,25,15,Orgain,Vegan,No
+95,Dairy-Free Yogurt,Dairy Alternatives,5.49,6,12/31/2024,120,3,15,5,Kite Hill,"Dairy-Free, Vegan",No
+96,Gluten-Free Brownies,Sweets,6.99,4,12/31/2024,180,8,25,3,Enjoy Life,"Gluten-Free, Vegan",No
+97,Organic Avocado Oil,Oils,9.99,3,12/31/2024,120,14,0,0,Chosen Foods,"Organic, Vegan",No
+98,Vegan Protein Pasta,Pasta,6.49,5,12/31/2024,220,2,40,15,Banza,"Vegan, High-Protein",No
+99,Gluten-Free Pizza,Frozen Meals,8.99,3,12/31/2024,300,10,40,10,Caulipower,"Gluten-Free, Vegan",No
+100,Vegan Protein Shake,Supplements,29.99,2,12/31/2024,180,5,10,25,Vega,Vegan,No

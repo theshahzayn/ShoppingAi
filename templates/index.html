@@ -27,6 +27,7 @@
         </select><br>
 
         <button type="button" onclick="addItem()">Add Selected Item</button><br>
+        <div id="total_spend_display"></div> <!-- Div to display total spend -->
 
         <ul id="selected_list"></ul><br>
         <input type="hidden" id="selected_items_list" name="selected_items_list">  <!-- Hidden input field for selected items -->
@@ -58,6 +59,9 @@
     </form>
 
     <script>
+
+        let totalSpend = 0;
+
         function searchItems() {
             // Declare variables
             let input, filter, select, options, i, option, txtValue;
@@ -102,6 +106,7 @@
             let selectedOptions = select.selectedOptions;
             let selectedItemsList = document.getElementById("selected_items_list");
 
+            let totalSpendDisplay = document.getElementById("total_spend_display");
 
             for (let i = 0; i < selectedOptions.length; i++) {
                 let option = selectedOptions[i];
@@ -113,7 +118,19 @@
                 // Update hidden input value
                 selectedItemsList.value += productName + ', ';
 
+
+                 // Extract price from the item text
+                let priceString = option.textContent.split(' - Rs. ')[1];
+                let price = parseFloat(priceString.replace(/[^0-9.-]+/g,"")); // Extract numeric characters
+                if (!isNaN(price)) {
+                    totalSpend = totalSpend + price;
+                }
+
             }
+
+             // Display total spend
+            totalSpendDisplay.innerHTML  = "Total Spend: Rs. " + totalSpend.toFixed(2)
+
         }
 
 
