@@ -7,6 +7,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.cluster import KMeans
 from sklearn.pipeline import Pipeline
 from sklearn.impute import SimpleImputer
+from sklearn.mixture import GaussianMixture
 
 
 import seaborn as sns
@@ -161,29 +162,21 @@ def scatterPlot(selected_products):
     return plt.savefig(image_file)
 
 def expiration_date_analysis(df, num_clusters=3):
-
-    if len(df) < num_clusters:
-        raise ValueError("Number of samples should be greater than or equal to the number of clusters.")
-
-    df['Days to Expire'].fillna(0)
-    df.fillna(0)
+    df['Days to Expire'].fillna(0, inplace=True)
+    df.fillna(0, inplace=True)
     X = df[['Days to Expire']]
-
-    # Drop rows with missing values
-    df.dropna(inplace=True)
 
     # Define a pipeline to handle missing values and perform clustering
     pipeline = Pipeline([
         ('imputer', SimpleImputer(strategy='mean')),  # Impute missing values with mean
-        ('kmeans', KMeans(n_clusters=num_clusters, random_state=42))
+        ('gmm', GaussianMixture(n_components=num_clusters))
     ])
 
-    # Initialize and fit KMeans clustering model
-    kmeans = KMeans(n_clusters=num_clusters, random_state=42)
-    kmeans.fit(X)
+    # Fit pipeline
+    pipeline.fit(X)
 
     # Add cluster labels to the DataFrame
-    df['Cluster'] = kmeans.labels_
+    df['Cluster'] = pipeline.named_steps['gmm'].predict(X)
 
     # Create a scatter plot of days until expiration vs. cluster
     plt.figure(figsize=(10, 6))
@@ -200,6 +193,7 @@ def expiration_date_analysis(df, num_clusters=3):
     plt.close()
 
     return 0
+
 
 def product_segmentation(df, num_clusters=3):
 

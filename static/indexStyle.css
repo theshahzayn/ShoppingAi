@@ -1,9 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #52b4ff;
+    background-color: rgba(82, 180, 255, 0.3);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
     margin: 0;
     padding: 0;
 }
+
 h1 {
     text-align: center;
     color: #333;
@@ -92,5 +96,14 @@ li {
             right: 10px;
             cursor: pointer;
         }
+
+        .custom-heading {
+            text-align: center;
+            color: #333;
+            font-size: 36px;
+            background-color: white;
+        }
+
+
 
 
