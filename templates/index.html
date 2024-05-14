@@ -7,8 +7,33 @@
     <title>Product Selector</title>
 </head>
 <body>
+
     <h1>Product Selector</h1>
     <form action="/results" method="post" id="product_form">
+
+        <!-- Login Popup -->
+        <div id="loginPopup" class="popup-container">
+            <div class="popup-content">
+                <span class="close-btn" onclick="closeLoginPopup()">&times;</span> <!-- Close button -->
+                <h2>Login</h2>
+
+                <!-- Login form inside the main form -->
+                <label for="userID">User ID:</label><br>
+                <input type="text" id="userID" name="userID"><br><br>
+
+                <label for="gender">Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br><br>
+
+                <label for="age">Age:</label><br>
+                <input type="number" id="age" name="age"><br><br>
+
+                <button type="button" value="Login"  onclick="closeLoginPopup()">Login</button><br>
+            </div>
+        </div>
+
         <label for="selected_items">Select Items:</label><br>
         <input type="text" id="search_input" onkeyup="searchItems()" placeholder="Search for items...">
 
@@ -62,6 +87,21 @@
 
         let totalSpend = 0;
 
+        // Function to open the login popup
+        function openLoginPopup() {
+            document.getElementById("loginPopup").style.display = "block";
+        }
+
+        // Open the login popup when the page loads
+        document.addEventListener("DOMContentLoaded", function() {
+            openLoginPopup();
+        });
+
+        // Function to close the login popup
+        function closeLoginPopup() {
+            document.getElementById("loginPopup").style.display = "none";
+        }
+
         function searchItems() {
             // Declare variables
             let input, filter, select, options, i, option, txtValue;
@@ -114,6 +154,18 @@
                 let listItem = document.createElement("li");
                 listItem.textContent = option.text;
                 selectedList.appendChild(listItem);
+
+                /**
+                // Call isHealthy function to check if the product is healthy
+                let isHealthyProduct = isHealthy(option);
+
+                // Update background color based on healthiness
+                if (!isHealthyProduct) {
+                    listItem.style.backgroundColor = "red";
+                } else {
+                    listItem.style.backgroundColor = "blue"; // Default background color
+                }
+                 **/
 
                 // Update hidden input value
                 selectedItemsList.value += productName + ', ';

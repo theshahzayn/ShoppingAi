@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Popup</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        .image-container {
+            position: relative;
+            margin-top: 20px;
+        }
+        .image-container img {
+            display: block;
+            margin: 0 auto;
+            width: 70%;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .image-container img:hover {
+            transform: scale(1.05);
+        }
+        .image-heading {
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+        }
+        .nav-button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(255, 255, 255, 0.5);
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .prev-button {
+            left: 10px;
+        }
+        .next-button {
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Analysis</h1>
+        <div class="image-container">
+            <button class="nav-button prev-button" onclick="prevImage()">&lt; Prev</button>
+            <button class="nav-button next-button" onclick="nextImage()">Next &gt;</button>
+            <img src="static/Barplot.png" alt="Bar Plot" id="image">
+            <div class="image-heading">Bar Plot</div>
+        </div>
+    </div>
+    <script>
+        const images = ['static/Barplot.png', 'static/scatterPlot.png', 'static/clustering.png', 'static/product_segmentation.png'];
+        let currentIndex = 0;
+        const imageElement = document.getElementById('image');
+
+        function prevImage() {
+            currentIndex = (currentIndex - 1 + images.length) % images.length;
+            setImage();
+        }
+
+        function nextImage() {
+            currentIndex = (currentIndex + 1) % images.length;
+            setImage();
+        }
+
+        function setImage() {
+            imageElement.src = images[currentIndex];
+            document.querySelector('.image-heading').innerText = getImageName(images[currentIndex]);
+        }
+
+        function getImageName(path) {
+            return path.split('/').pop().split('.')[0];
+        }
+    </script>
+</body>
+</html>
